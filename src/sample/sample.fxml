@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="305.0" prefWidth="376.0">
+         <children>
+            <Button id="startBtn" fx:id="startBtn" layoutX="119.0" layoutY="209.0" mnemonicParsing="false" onAction="#startCont" prefHeight="44.0" prefWidth="123.0" text="Start" />
+            <TextField id="contPlus" fx:id="contPlus" layoutX="23.0" layoutY="73.0" />
+            <TextField id="contMinus" fx:id="contMinus" layoutX="196.0" layoutY="73.0" />
+            <Label layoutX="23.0" layoutY="46.0" text="Contador +" />
+            <Label layoutX="196.0" layoutY="46.0" text="Contador -" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
